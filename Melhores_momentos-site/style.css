@@ -3,20 +3,22 @@
 body{
     justify-self: center;
     margin: 5%;
-    background-color: rgb(39, 39, 39);
+    background-image: linear-gradient(to right,#F2E205, #F20530);
 }
-h1{
-    color: blanchedalmond;
+h1{ 
+    color: #930000;
+    text-align: center;
 }
 p {
-    color: rgb(195, 226, 253);
+    color: #180000;
 }
 
 img{
     width: 300px;
     height: 200px;
     max-width: 100%;
-    height: auto
+    height: auto;
+    border-radius: 3%;
 }
 .lado {
     display: flex;
@@ -48,6 +50,15 @@ iframe {
     justify-content: center;
 }
 a {
-    color: chartreuse;
+    color: #730202
 }
-
+abbr{
+    forced-color-adjust: #730202;
+}
+main{
+    background-color: #f7f7f7;
+    margin: auto;
+    width: 700px;
+    border-radius: 5%;
+    padding: 17px;
+}
